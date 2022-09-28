@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+/* CSS FOR LOGO */
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4%;
+}
+
+/* CSS FOR NAVBAR */
+nav ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 30px;
+    background-color: aqua;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+nav ul li {
+    margin: 10px 50px;
+    list-style: none;
+    text-decoration: none !important;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 23px;
+    padding: 10px 20px;
+    width: 6%;
+    color: black
+}
+
+nav ul li:hover {
+    background-color: white;
+    border-radius: 30px;
+}
+
+/* CSS FOR MAIN */
+#promotion {
+    background: rgb(162, 32, 32);
+    background: radial-gradient(circle, rgba(162, 32, 32, 1) 0%, rgba(104, 114, 30, 1) 100%);
+    border-radius: 20px;
+    text-align: center;
+    padding: 5% 10%;
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* CSS FOR 3 SECIONS (3 CARDS) */
+#card{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.garden_img{
+    height: 400px;
+    width: 500px;
+}
+
+.allcards{
+    background-color: aqua;
+    border-radius: 20px;
+    height: 550px;
+    width: 600px;
+}
+h2{
+    margin: 15px 10px;
+}
+
+/* CSS FOR FOOTER */
+#foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 15px;
+}
+
+footer div img {
+    height: 100px;
+    width: 100px;
+    margin-left: 80px;
+}
+
+footer div p{
+    font-size: 23px;
+    color: brown;
+    margin-top: 35px;
+    margin-right: 60px;
+}
